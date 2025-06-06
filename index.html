@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Animado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <span id="date"></span>
+    </div>
+    <div class="header-right">
+      <a href="https://x.com/Vinihskoutz" title="Twitter">TW</a>
+      <a href="https://github.com/ViniciusDream" title="GitHub">GH</a>
+      <a href="https://www.linkedin.com/in/marcos-vinícius-708b7a31a/" title="LinkedIn">LD</a>
+    </div>
+  </header>
+<div class="container-index">
+    <div class="subcontainer-index">
+    <nav class="menu">
+        <a class="a-work" href="work.html">PROJETOS</a> 
+        <a class="a-about" href="about.html">SOBRE</a>
+        <a class="a-contact" href="contact.html">CONTATO</a>
+      </nav>
+      <div>
+    <h1>Marcos Vinícius Bonfin de Oliveira</h1><br>
+    <p class="p-style">Product Designer / Webflow Developer / Framer Developer E Partner.</p><br>
+    <p class="p-style">Web Developer front-end no mercado há 2 mêses.</p>
+</div>
+</div>
+</div>  
+
+  <script>
+    const date = new Date();
+    const dateElement = document.getElementById('date');
+    dateElement.textContent = date.toDateString();
+  </script>
+
+</body>
+</html>
